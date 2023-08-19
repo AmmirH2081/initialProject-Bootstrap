@@ -1,0 +1,135 @@
+
+.custom-offers .nav-link{
+    border: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    font-size: 15px;
+    color: rgb(56, 56, 56);
+}
+
+.custom-offers .nav-link.active  , .nav-item.show , .nav-link{
+    color: rgb(238, 99, 99);
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.custom-offers .nav-link:hover , .custom-offers .nav-link:focus{
+    border-color: transparent;
+}
+
+p.offer-section-header{
+    border-bottom: 1px solid red;
+    right: 15px;
+    top: 5px;
+    font-weight: bold;
+}
+
+/* /// */
+
+.custom-tab-content-offers .custom-product-1 div:first-child{
+    width: 250px;
+}
+
+.custom-tab-content-offers .custom-wrapper-content-offer .offers-title{
+    /* color: #483d8b; */
+    color: #0056b3;
+}
+
+.custom-tab-content-offers .offers-stars i{
+    color: #ffd700;
+    font-size: 16px;
+}
+
+.custom-tab-content-offers .offers-price span:first-child{
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+
+/* timer */
+.custom-tab-content-offers .count-donw-timer #demo span{
+    display: inline-block;
+    text-align: center;
+    line-height: 3.5;
+    background-color: #efefef;
+    width: 24px;
+    height: 38px;
+    /* width: 15%;
+    height: 10%; */
+    border-radius: 4px;
+    margin: 4px 6px;
+    font-size: 12px;
+    box-shadow: 4px 4px rgb(48, 48, 48), -4px -4px #e1e1e1;
+    /* background: #eee;
+  box-shadow: 0 8px 8px -4px lightblue; */
+}
+
+#demo #day,#hours,#minutes,#seconds{
+    position: relative;
+}
+
+.custom-tab-content-offers .count-donw-timer #demo #day::after{
+    content: "روز";
+    position: absolute;
+    top: 32px;
+    left: 8px;
+    font-size: 12px;
+}
+
+.custom-tab-content-offers .count-donw-timer #demo #hours::after{
+    content: "ساعت";
+    position: absolute;
+    top: 32px;
+    left: 2px;
+    font-size: 12px;
+}
+
+.custom-tab-content-offers .count-donw-timer #demo #minutes::after{
+    content: "دقیقه";
+    position: absolute;
+    top: 32px;
+    left: 2px;
+    font-size: 12px;
+}
+
+.custom-tab-content-offers .count-donw-timer #demo #seconds::after{
+    content: "ثانیه";
+    position: absolute;
+    top: 32px;
+    left: 4px;
+    font-size: 12px;
+}
+/* end */
+
+.custom-product-1,
+.custom-product-2{
+    padding: 0 !important;
+}
+
+.custom-product-1-images{
+    overflow: hidden;
+    height: 250px;
+}
+
+.custom-product-1-images img{
+    transition: .5s;
+}
+
+.custom-product-1-images:hover img{
+    transform: translateY(-250px);
+}
+
+/* product-single-page.html */
+.product-single-page-html{
+    margin-top: 25px !important;
+}
+
+.product-single-page-html a{
+    font-size: 14px;
+    font-weight: bold;
+    color: #19BFD3 !important;
+}
+
+.product-single-page-html span{
+    color: #19BFD3 !important;
+    font-size: 17px;
+}

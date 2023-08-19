@@ -1,0 +1,86 @@
+@import '_header.css';
+@import '_slider.css';
+@import '_shipping.css';
+@import '_category.css';
+@import '_offers.css';
+@import '_things.css';
+@import '_banner-1.css';
+@import '_owl-carousel.css';
+@import '_footer.css';
+@font-face{
+    font-family: yekan;
+    /* src: url(/e-commerce-project/assets/fonts/Sahel.eot) format('eot'),
+    url(/e-commerce-project/assets/fonts/Sahel.woff) format('woff'),
+    url(/e-commerce-project/assets/fonts/Sahel.woff2) format('woff2')
+    ; */
+
+    /* src: url(/e-commerce-project/assets/fonts/Sans\ a4fran3.eot) format('eot'),
+    url(/e-commerce-project/assets/fonts/Sans\ a4fran3.woff) format('woff'),
+    url(/e-commerce-project/assets/fonts/Sans\ a4fran3.ttf) format('ttf')
+    ; */
+
+    src: url(.././fonts/Yekan.eot) format('eot'),
+    url(.././fonts/Yekan.ttf) format('TrueType'),
+    url(.././fonts/Yekan.woff) format('woff')
+    ;
+
+}
+body,*{
+    padding: 0 ;
+    margin: 0 ;
+    box-sizing: border-box;
+    font-family: yekan;
+}
+ul,li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin: 0;
+}
+
+/* start */
+
+body{
+    direction: rtl !important;
+}
+
+
+#banner-img{
+    border-radius: 8px;
+}
+
+@media (min-width:1200px){
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl{
+        max-width: 1340px !important;
+    }
+}
+
+@media (max-width:1200px){
+    .custom-offers .custom-tab-content-offers .custom-wrapper-content-offer{
+        font-size: 12px;
+    }
+}
+
+@media (max-width:992px){
+    #first-slider img{
+        height: 100%;
+    }
+}
+
+@media (max-width:768px){
+    .custom-wrappers-icons i{
+        font-size: 24px;
+    }
+}
+
+
+

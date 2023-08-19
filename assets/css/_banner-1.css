@@ -1,0 +1,9 @@
+
+.banner-section-1 .banner-hover img{
+    transition: .3s;
+    filter: brightness(0.9);
+}
+
+.banner-section-1 .banner-hover img:hover{
+    filter:brightness(1);
+}

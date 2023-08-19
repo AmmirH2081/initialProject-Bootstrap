@@ -1,0 +1,84 @@
+.news-letter{
+    margin-top: -60px;
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, .05);
+}
+.news-letter .row{
+    padding: 24px 0;
+}
+
+.news-letter .section-first h6{
+    font-size: 18px;
+}
+
+.news-letter .section-first p{
+    font-size: 14px;
+}
+
+.news-letter .section-seccond p{
+    line-height: 28px;
+}
+
+.news-letter .section-third input::placeholder{
+    font-size: 12px;
+}
+
+.main-section-footer h5{
+    font-size: 16px;
+    border-bottom: 1px solid #ffc107;
+    padding-bottom: 4px;
+    display: inline-flex;
+}
+
+.main-section-footer .nav-link{
+    color: #535353;
+    font-size: 14px;
+    transition: .3s;
+    position: relative;
+    padding: 4px 0 !important;
+}
+
+.main-section-footer .nav-link:hover{
+    color:#0056B3;
+}
+
+#main-section-footer-icon{
+    font-size: 24px;
+    color: #0056B3;
+}
+
+.main-section-footer-support div:nth-child(2) p,.social-icon{
+    font-size: 14px;
+}
+
+.main-section-footer .social-icon i{
+    margin: 0 4px;
+    color: black;
+    transition: .3s;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.main-section-footer .social-icon i:nth-child(1):hover{
+    color: #32A5E0;
+}
+
+.main-section-footer .social-icon i:nth-child(2):hover{
+    color: #F200CD;
+}
+
+.main-section-footer .social-icon i:nth-child(3):hover{
+    color: #32A5E0;
+}
+
+.main-section-footer .social-icon i:nth-child(4):hover{
+    color: #41E25E;
+}
+
+.main-section-footer .social-icon i:nth-child(5):hover{
+    color: #0077B5;
+}
+
+.last-banner{
+    margin:40px auto 64px auto ;
+}
+

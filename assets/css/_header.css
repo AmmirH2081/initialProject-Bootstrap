@@ -1,0 +1,232 @@
+.bg-top-nav{
+    background-color: #232f3e !important;
+}
+
+.custom-top-nav, .bg-top-nav p{
+    font-size: 15px;
+}
+
+.custom-top-nav a{
+    color: white;
+    transition: .3s;
+}
+
+.custom-top-nav a:hover{
+    /* color: #006aff !important; */
+    color: orange !important;
+}
+
+.custom-top-nav .border-left{
+    border-color: #4a4a4a !important;
+}
+
+.custom-btn-font-size-first{
+    background-color: transparent !important;
+}
+
+.custom-btn-font-size-first,
+.custom-btn-font-size-seccond{
+    font-size: 13px;
+    border: none;
+    transition: .3s !important;
+    color: white;
+}
+
+.custom-btn-font-size-first:hover{
+    color: white !important;
+}
+
+.custom-btn-font-size-first:focus{
+    box-shadow: none !important;
+    border-color:unset !important;
+}
+
+.custom-btn-font-size-seccond:hover{
+    color: white !important;
+    background-color: #ffa500 !important;
+}
+
+.custom-input-header{
+    /* background-color: transparent; */
+    background-color: #efefef !important;
+    border:none;
+    transition: .3s;
+    border-radius:0 4px 4px 0 !important;
+}
+
+.custom-input-header:focus{
+    box-shadow: none !important;
+}
+
+.custom-input-header::placeholder{
+    color: black;
+    font-size: 12px;
+}
+
+.custom-input-group-header i{
+    margin-right: 16px;
+}
+
+.bg-top-nav .shop-card{
+    border: none;
+    background-color: transparent !important;
+}
+
+.shop-card:hover{
+    text-decoration: none;
+}
+
+.shop-card i{
+    vertical-align: -8px;
+}
+
+/* .custom-dropdown-toggle::after{
+    vertical-align: 0px;
+}
+
+.basket{
+    width: 220px !important;
+    left: 60px !important;
+}
+
+.basket a{
+    font-size: 12px;
+}
+
+
+.basket a img{
+    width: 64px;
+    height: 64px;
+} */
+
+.custom-nav-menu a{
+    color: white !important}
+
+.custom-nav-menu a:last-child{
+    color: #ffa500 !important;
+}
+
+.custom-nav-menu button{
+    background-color: transparent !important;
+    color: white !important;
+}
+
+.custom-nav-menu button span{
+    color: white !important;
+    background: unset !important;
+}
+
+.custom-nav-menu button:hover{
+    background-color: unset !important;
+}
+
+.custom-nav-menu button:focus{
+    background-color: unset !important;
+    outline: none !important;
+    
+}
+
+.custom-nav-menu button:focus span{
+    color: #ffa500 !important;
+}
+
+
+#megamenu{
+    /* width: 1000px !important; */
+    top: 63px ;
+    left: 5rem ;
+    padding: 0 !important;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, .2) !important;
+    border: none !important;
+    border-radius: 8px !important;
+}
+
+#megamenu a{
+    color: black !important;
+    padding: .5rem  !important;
+    display: flex !important;
+    align-items: center !important;
+    transition: .3s !important;
+}
+
+#megamenu-img{
+    object-fit: cover !important;
+}
+
+#megamenu a:hover{
+    margin-right: .5rem !important;
+    color: #006aff !important;
+    background-color: transparent !important;
+}
+
+.custom-column-megamenu{
+    width: 16rem;
+}
+
+.dropdown-toggle::after{
+    vertical-align: 0px;
+    display: none !important;
+}
+
+.custom-register a{
+    color: white;
+    transition: .3s;
+    font-size: 20px;
+}
+
+.custom-register a:hover{
+    text-decoration: none;
+    color: #ffa500;
+}
+
+/* /////////// */
+/* login form */
+.modal{
+    color: black !important;
+}
+
+.modal-content{
+    border-radius: 16px !important;
+}
+
+.modal-footer a{
+    font-size: 14px;
+    text-decoration: none !important;
+    color: #0056B3;
+}
+
+.modal .modal-header h5{
+    font-size: 18px;
+}
+
+.modal label{
+    font-size: 16px;
+}
+
+.modal input::placeholder{
+    font-size: 14px;
+}
+
+.modal input{
+    border: none;
+    border-radius: unset;
+}
+
+.modal input:focus{
+    box-shadow: none;
+    border-bottom: 1px solid aquamarine;
+}
+
+/* basket shop */
+.basket a span{
+    transition: .3s;
+    font-size: 24px;
+}
+
+.basket a span:hover{
+    color: #ffa500 !important;
+}
+
+.basket a:hover{
+    text-decoration: none !important;
+}

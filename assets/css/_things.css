@@ -1,0 +1,32 @@
+p.things-section-header{
+    border-bottom: 1px solid red;
+    right: 16px;
+    top: -30px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.custom-owl-carousel .card{
+    border: none !important;
+    border-left: 1px solid #efefef !important;
+}
+
+.custom-owl-carousel .card#fisrt-child{
+    border-right: 1px solid #efefef !important;
+}
+
+.custom-owl-carousel .card{
+    cursor: pointer;
+    padding: 8px !important;
+}
+
+.custom-owl-carousel .card .custom-card-footer i{
+    color: #4caf50;
+}
+
+.custom-owl-carousel .card .custom-card-footer span{
+    /* margin-right: 8px; */
+    color: rgba(0, 0, 0, .6) !important;
+    font-weight: lighter !important;
+    font-size: 11px;
+}

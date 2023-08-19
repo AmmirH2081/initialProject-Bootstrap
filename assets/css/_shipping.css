@@ -1,0 +1,17 @@
+.custom-wrappers-icons p{
+    font-size: 14px;
+    text-align: center;
+}
+
+.custom-wrappers-icons i{
+    font-size: 36px;
+    margin-bottom: 12px;
+    /* color: orange; */
+    color: #ffa500;
+}
+
+.custom-wrappers-icons .bg-light{
+    padding: 12px;
+    border-radius: 4px;
+    box-shadow: 0 0 15px -5px rgba(0, 0, 0, .2);
+}

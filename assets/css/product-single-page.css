@@ -1,0 +1,152 @@
+/* detail */
+.wrapper-detail .row{
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, .05);
+}
+
+.custom-breadcrumb .breadcrumb{
+    background-color: #f8f9fa;
+}
+
+.wrapper-detail h1{
+    /* border-bottom: 1px solid #efefef; */
+    padding-bottom: 16px;
+    font-size:24px ;
+    margin-bottom: 30px;
+}
+
+.wrapper-detail .describe{
+    line-height: 32px;
+}
+
+.wrapper-detail .offer-rating i{
+    color: gold;
+}
+
+.wrapper-detail .offers-price span:nth-child(1){
+    text-decoration: line-through;
+    text-decoration-color: red;
+    margin-left: 8px;
+}
+
+.wrapper-detail .offers-price span:nth-child(2){
+    color: #4CAF50;
+}
+
+.wrapper-detail .detail-header i{
+    font-size: 18px;
+    color: darkslateblue;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.wrapper-detail .detail-header a:hover{
+    text-decoration: none !important;
+}
+
+/* shaking effect */
+@keyframes shaking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(10deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-10deg); }
+    100% { transform: rotate(0deg); }  
+}
+
+.wrapper-detail .detail-header a:nth-child(4) i:hover{
+    transform: translateY(2px);
+    animation-name:shaking ;
+    animation-duration: .1s;
+    animation-iteration-count:5;
+}
+
+.wrapper-detail .detail-header a:nth-child(2) i:hover{
+    color: red;
+}
+
+.wrapper-detail .detail-header a:nth-child(3) i:hover{
+    font-size: 20px;
+}
+
+/* properties */
+.properties-section .nav .nav-link{
+    padding: 4px 0 !important;
+}
+
+/* Q/A */
+.qa-section .custom-nav-tabs a{
+    transform: .3s;
+}
+
+.qa-section .custom-nav-tabs a:hover{
+    border-bottom: 3px solid red !important;
+}
+
+.qa-section .custom-nav-tabs a:focus{
+    border-bottom: 3px solid red !important;
+}
+
+
+.qa-section .custom-arrow-icon{
+    vertical-align: -7px;
+    font-size: 18px;
+}
+
+/* progress bar */
+.product-progress p{
+    font-size: 14px;
+}
+
+/* /// */
+.veiwpoint-top a{
+    font-size: 12px !important;
+    padding: 4px 16px !important;
+}
+
+.veiwpoint-top a i{
+    vertical-align: -3px;
+}
+
+/* comments */
+.custom-comment-icons span{
+    transition: .3s;
+    cursor: pointer;
+}
+
+.custom-comment-icons span:nth-child(1):hover{
+    text-decoration: none !important;
+    color: #4CAF50 !important;
+}
+
+.custom-comment-icons span:nth-child(2):hover{
+    text-decoration: none !important;
+    color: red !important;
+}
+
+.veiwpoint-bottom .offer-icon span{
+    font-size: 16px;
+}
+
+/* form comments */
+.form-comments .row{
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, .05);
+}
+
+.form-comments textarea{
+    resize: none;
+}
+
+/* footer */
+footer{
+    margin-top: 120px;
+}
+
+
+
+
+
+/* media queries */
+@media (max-width:992px){
+    /* .container{
+        max-width: 800px;
+    } */
+}

@@ -1,0 +1,8 @@
+.custom-text-category{
+    font-size: 12px;
+}
+
+.custom-category-items a{
+    text-decoration: none !important;
+    color: black !important;
+}

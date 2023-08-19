@@ -1,0 +1,13 @@
+.owl-carousel-section-header{
+    right: 15px;
+    top:-35px;
+    border-bottom: 1px solid red;
+    font-weight: bold;
+    font-size: 18px;
+    z-index: 1 !important;
+}
+
+.owl-carousel .card{
+    border: none !important;
+}
+
